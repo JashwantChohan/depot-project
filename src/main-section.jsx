@@ -121,7 +121,7 @@ const MainSection = () => {
            whileInView={"show"}
            viewport={{once: false, amount:0.8}}
           
-          className='cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img2.jpg" alt="" /></motion.div>
+          className='cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105'src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img1.jpg" alt="" /></motion.div>
 
           <motion.div
            variants={fadeIn("up", 0.2)}
