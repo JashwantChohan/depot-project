@@ -319,7 +319,7 @@ const MainSection = () => {
 
           className='mt-36 mx-8 bg '><img className='  overflow-hidden transition duration-300 ease-in-out  transform' src="./src/assets/last-div-img.png" alt="" /></motion.div>
       </div>
-      <div className=''>
+      <div className='flex p-10 justify-center items-center'>
         <img src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-client-1h.png" alt="" />
         <img src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-client-2h.png" alt="" />
         <img src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-client-3h.png" alt="" />
