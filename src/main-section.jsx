@@ -32,7 +32,7 @@ const data = [
     img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-2.png'
   },
   {
-    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-1.png'
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-6.png'
   },
 
 
@@ -43,7 +43,7 @@ const data = [
     img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-4.png'
   },
   {
-   img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-10.png'
+   img: 'https://depot.qodeinteractive.com/wp-content/uploads/2023/06/landing-m-slider-img-3.png'
   },
 
 
@@ -58,7 +58,7 @@ const data = [
   },
 
   {
-    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-10.png'
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-12.png'
   },
   {
     img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-11.png'
