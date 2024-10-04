@@ -317,7 +317,7 @@ const MainSection = () => {
           whileInView={"show"}
           viewport={{ once: false, amount: 0.1 }}
 
-          className='mt-36 mx-8 bg '><img className='  overflow-hidden transition duration-300 ease-in-out  transform' src="./src/assets/last-div-img.png" alt="" /></motion.div>
+          className='flex justify-center p-14 my-20 mx-8 bg '><img className='  overflow-hidden transition duration-300 ease-in-out  transform' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img5.jpg" alt="" /></motion.div>
       </div>
       <div className='flex p-10 justify-center items-center'>
         <img src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-client-1h.png" alt="" />
