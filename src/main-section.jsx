@@ -3,6 +3,10 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+// motion
+import { motion } from 'framer-motion'
+// variants
+import { fadeIn } from './variant';
 
 
 // images for responsive slider
@@ -67,6 +71,9 @@ const data = [
 
 const MainSection = () => {
 
+
+
+
   const settings = {
     dots: true,
     infinite: true,
@@ -92,37 +99,98 @@ const MainSection = () => {
 
   return (
     <div className='box-border'>
-      <div className="w-screen text-center ">
+      <motion.div
+        variants={fadeIn("right", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{once: false, amount:0.1}}
+
+        className="w-screen text-center ">
         <h1 className="text-black text-5xl py-9  ">DEPOT</h1>
-        <p className=" text-gray-400 text-xl w-[50%] flex items-center justify-center ml-80 ">
+        <p className=" text-gray-400 text-xl w-[50%] flex items-center justify-center lg:ml-80 ">
           Launch your eCommerce platform quickly and easily with Depot’s collection of beautiful and easily importable homepages.
         </p>
-      </div>
+      </motion.div>
       <div>
-        <div className='grid sm:grid-cols-3 gap-12 min-h-[px] mt-32 mx-20 '>
-          <div className='min-h-[200px] hover:shadow-lg  cursor-pointer'><img src="./src/assets/img1.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img2.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img3.png" alt="" /></div>
+
+        <div className=' grid sm:grid-cols-3 gap-12 min-h-[px] mt-32 mx-20 '>
+ 
+          <motion.div
+           variants={fadeIn("up", 0.2)}
+           initial="hidden"
+           whileInView={"show"}
+           viewport={{once: false, amount:0.8}}
+          
+          className='cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img1.png" alt="" /></motion.div>
+
+          <motion.div
+           variants={fadeIn("up", 0.2)}
+           initial="hidden"
+           whileInView={"show"}
+           viewport={{once: false, amount:0.8}}
+          
+          className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img2.png" alt="" /></motion.div>
+          
+          <motion.div
+           variants={fadeIn("up", 0.2)}
+           initial="hidden"
+           whileInView={"show"}
+           viewport={{once: false, amount:0.8}}
+          
+          className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img3.png" alt="" /></motion.div>
+          
         </div>
-        <div className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img4.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img5.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img6.png" alt="" /></div>
-        </div>
-        <div className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img7.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img8.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img9.png" alt="" /></div>
-        </div>
-        <div className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img10.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img11.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img12.png" alt="" /></div>
-        </div>
+
+
+        <motion.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.8 }}
+
+          className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img4.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img5.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img6.png" alt="" /></div>
+        </motion.div>
+
+        <motion.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.8 }}
+
+          className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img7.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img8.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img9.png" alt="" /></div>
+        </motion.div>
+
+        <motion.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.8 }}
+
+          className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img10.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img11.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img12.png" alt="" /></div>
+        </motion.div >
+
+
+
       </div>
 
       <div className='bg-slate-100 grid sm:grid-cols-2 gap-2'>
-        <div className='bg-slate-100 min-h-[500px] grid-cols-3 py-10 px-24 text-gray-400'>
+        <motion.div
+         variants={fadeIn("right", 0.2)}
+         initial="hidden"
+         whileInView={"show"}
+         viewport={{ once: false, amount: 0.8 }}
+        
+        
+        className='bg-slate-100 min-h-[500px] grid-cols-3 py-10 px-24 text-gray-400'>
           <h1 className='text-2xl leading-9 tracking-wide my-5 mx-0 text-black font-semibold uppercase'>
             A Large Collection of Practical Inner Pages
           </h1>
@@ -136,10 +204,17 @@ const MainSection = () => {
             <li>Our Team</li>
             <li>Contact Us</li>
           </ul>
-        </div>
+        </motion.div>
 
-        <div className='pt-16 group'>
-          <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className='h-full w-full bg-slate-100 bg-cover relative duration-500'>
+        <div className='pt-16 group  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out  transform hover:-translate-y-5 hover:scale-105'>
+          <motion.div
+           variants={fadeIn("left", 0.2)}
+           initial="hidden"
+           whileInView={"show"}
+           viewport={{once: false, amount:0.4}}
+          
+          
+          style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className='h-full w-full bg-slate-100 bg-cover relative duration-500'>
             {/* left-arrow */}
             <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-black cursor-pointer'>
               <BsChevronCompactLeft onClick={prevSlide} size={30} />
@@ -149,40 +224,80 @@ const MainSection = () => {
               <BsChevronCompactRight onClick={nextSlide} size={30} />
             </div>
 
-          </div>
+          </motion.div>
         </div>
       </div>
 
-      <div className=' justify-center text-center  mt-3 h-[300px]'>
+      <motion.div
+       variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+      
+      
+      className=' justify-center text-center  mt-3 h-[300px]'>
         <h6 className='pt-20 tracking-widest pb-7 uppercase font-semibold ' >Blog & Portfolio</h6>
         <h1 className='text-gray-400 text-2xl tracking-widest'>Show off your portfolio and blog posts using <br /> Depot’s creative and stylish templates.</h1>
-      </div>
+      </motion.div>
 
       <div>
-        <div className='grid sm:grid-cols-3 gap-12 min-h-[px]  mx-20'>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img1.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img2.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img3.png" alt="" /></div>
-        </div>
-        <div className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img4.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img5.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img6.png" alt="" /></div>
-        </div>
+        <motion.div 
+        
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.5 }}
+        
+        className='grid sm:grid-cols-3 gap-12 min-h-[px]  mx-20'>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img1.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img2.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img3.png" alt="" /></div>
+        </motion.div>
 
-        <div className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img7.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img8.png" alt="" /></div>
-          <div className='min-h-[200px] hover:shadow-lg cursor-pointer'><img src="./src/assets/img9.png" alt="" /></div>
-        </div>
+        <motion.div
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.5 }}
+        
+        className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img4.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img5.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img6.png" alt="" /></div>
+        </motion.div>
 
-        <div className=' justify-center text-center  mt-3 h-[300px]'>
+        <motion.div
+          variants={fadeIn("right", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.5 }}
+        
+        className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img7.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img8.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img9.png" alt="" /></div>
+        </motion.div>
+
+        <motion.div
+          variants={fadeIn("right", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.5 }}
+        
+        className=' justify-center text-center  mt-3 h-[300px]'>
           <h6 className='pt-20 tracking-widest text-2xl pb-7 uppercase font-semibold ' >Fully Responsive Layouts</h6>
           <h1 className='text-gray-400'>Depot is made with mobile in mind, meaning that every page is fully responsive and ready for high-density retina <br /> screens. Simply scan the QR codes bellow to visit Depot’s homepages on your mobile device.</h1>
-        </div>
+        </motion.div>
 
         <div className='w-3/4 m-auto'>
-          <div className=''>
+          <motion.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.1 }} 
+          
+          
+          className=''>
             <Slider {...settings}>
               {data.map((d) => (
                 <div className=' h-[450px] border-black text-black rounded-xl *:'>
@@ -193,13 +308,19 @@ const MainSection = () => {
                 </div>
               ))}
             </Slider>
-          </div>
+          </motion.div>
 
         </div>
-        <div className='mt-36 mx-8 bg '><img src="./src/assets/last-div-img.png" alt="" /></div>
+        <motion.div
+          variants={fadeIn("right", 0.2)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.1 }}
+        
+        className='mt-36 mx-8 bg '><img className='  overflow-hidden transition duration-300 ease-in-out  transform' src="./src/assets/last-div-img.png" alt="" /></motion.div>
       </div>
       <div className='border-2 '><img src="./src/assets/footer.png" alt="" /></div>
-    </div>  
+    </div >
   );
 };
 
