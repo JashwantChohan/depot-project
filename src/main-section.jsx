@@ -32,7 +32,7 @@ const data = [
     img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-2.png'
   },
   {
-    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-3.png'
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-1.png'
   },
 
 
