@@ -12,13 +12,13 @@ import { fadeIn } from './variant';
 // images for responsive slider
 const slides = [
   {
-    url: './public/images/slide01.png'
+    url: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-card-img3.jpg'
   },
   {
-    url: './public/images/slide02.png'
+    url: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-card-img2.jpg'
   },
   {
-    url: './public/images/slide03.png'
+    url: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-card-img1.jpg'
   }
 ];
 
@@ -26,45 +26,45 @@ const slides = [
 const data = [
 
   {
-    img: './public/images/Mslide01.png'
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-1.png'
   },
   {
-    img: './public/images/mslide02.png'
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-2.png'
   },
   {
-    img: './public/images/mslide03.png'
-  },
-
-
-  {
-    img: './public/images/mslide04.png'
-  },
-  {
-    img: './public/images/mslide05.png'
-  },
-  {
-    img: './public/images/mslide06.png'
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-6.png'
   },
 
 
   {
-    img: './public/images/mslide07.png'
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-5.png'
   },
   {
-    img: './public/images/mslide08.png'
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-4.png'
   },
   {
-    img: './public/images/mslide09.png'
+    img: 'src="https://depot.qodeinteractive.com/wp-content/uploads/2023/06/landing-m-slider-img-3.png"'
+  },
+
+
+  {
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-7.png'
+  },
+  {
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-9.png'
+  },
+  {
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-8.png'
   },
 
   {
-    img: './public/images/mslide10.png'
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-12.png'
   },
   {
-    img: './public/images/mslide11.png'
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-12.png'
   },
   {
-    img: './public/images/mslide01.png'
+    img: 'https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-m-slider-img-13.png'
   }
 
 ];
@@ -137,7 +137,7 @@ const MainSection = () => {
            whileInView={"show"}
            viewport={{once: false, amount:0.8}}
           
-          className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img3.png" alt="" /></motion.div>
+          className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img3.jpg" alt="" /></motion.div>
           
         </div>
 
@@ -149,9 +149,9 @@ const MainSection = () => {
           viewport={{ once: false, amount: 0.8 }}
 
           className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img4.png" alt="" /></div>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img5.png" alt="" /></div>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img6.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img4.jpg"alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img5.jpg" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img6.jpg" alt="" /></div>
         </motion.div>
 
         <motion.div
@@ -161,9 +161,9 @@ const MainSection = () => {
           viewport={{ once: false, amount: 0.8 }}
 
           className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img7.png" alt="" /></div>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img8.png" alt="" /></div>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img9.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img7.jpg" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img8.jpg" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img9.jpg" alt="" /></div>
         </motion.div>
 
         <motion.div
@@ -173,9 +173,9 @@ const MainSection = () => {
           viewport={{ once: false, amount: 0.8 }}
 
           className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img10.png" alt="" /></div>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img11.png" alt="" /></div>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img12.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img10.jpg" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img11.jpg" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port1-img12.jpg" alt="" /></div>
         </motion.div >
 
 
@@ -249,9 +249,9 @@ const MainSection = () => {
         viewport={{ once: false, amount: 0.5 }}
         
         className='grid sm:grid-cols-3 gap-12 min-h-[px]  mx-20'>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img1.png" alt="" /></div>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img2.png" alt="" /></div>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img3.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port2-img1.jpg" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port2-img2.jpg" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port2-img3.jpg" alt="" /></div>
         </motion.div>
 
         <motion.div
@@ -261,9 +261,9 @@ const MainSection = () => {
           viewport={{ once: false, amount: 0.5 }}
         
         className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img4.png" alt="" /></div>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img5.png" alt="" /></div>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img6.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port2-img4.jpg" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port2-img5.jpg" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port2-img6-1.jpg" alt="" /></div>
         </motion.div>
 
         <motion.div
@@ -273,9 +273,9 @@ const MainSection = () => {
           viewport={{ once: false, amount: 0.5 }}
         
         className='grid sm:grid-cols-3 gap-12 min-h-[px] bg-slate-100 my-10 mx-20'>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img7.png" alt="" /></div>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img8.png" alt="" /></div>
-          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="./src/assets/img9.png" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port2-img7.jpg" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port2-img8.jpg" alt="" /></div>
+          <div className=' cursor-pointer'><img className='min-h-[200px]  hover:shadow-lg  overflow-hidden transition duration-300 ease-in-out hover:bg-gray-200 transform hover:-translate-y-5 hover:scale-105' src="https://depot.qodeinteractive.com/wp-content/uploads/2017/02/landing-port2-img9.jpg" alt="" /></div>
         </motion.div>
 
         <motion.div
